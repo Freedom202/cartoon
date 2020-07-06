@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>千与千寻</title>
+    <meta name="keywords" content="千与千寻" />
+    <meta name="description" content="千与千寻">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="higame-share-title" content="" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="js/swiper-3.4.2.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+  
+</head>
+
+<body onload="init();">
+    <div class='loading' id='loading'>
+        <div class='pic'>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+     </div>
+    <a href="javascript:;" class="btn-music wow bounceInLeft"></a>
+    <audio id="music" src="images/music.mp3" autoplay="autoplay" loop="loop"></audio>
+    <!-- slogan -->
+    <div class="header">
+        <video src="images/video.mp4" autoplay loop muted></video> 
+        <a href="https://www.bilibili.com/" class="logo wow bounceInLeft"></a>
+        <i></i>
+    </div>
+    <div class="content1">
+        <div class="cont">
+            <div class="wow bounceInLeft title">千与千寻介绍</div>
+            <div class="wow bounceInLeft txt">
+                《千与千寻》是宫崎骏执导、编剧，柊瑠美、入野自由、中村彰男、夏木真理等配音，吉卜力工作室制作的动画电影。该片讲述了少女千寻意外来到神灵异世界后，为了救爸爸妈妈，经历了很多磨难的故事。该片于2001年7月20日在日本上映，后于2019年6月21日在中国正式上映。
+            </div>
+        </div>
+    </div>
+    <div class="content2">
+        <div class="cont">
+            <div class="wow bounceInLeft title">图片展示</div>
+            <div class="wow bounceInLeft swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/swiper1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/swiper2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/swiper3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/swiper4.jpg" alt=""></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+		        <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content3 wow bounceInLeft">
+        <div class="cont">
+            <div class="wow bounceInLeft title">精选片段</div>
+            <div class="wow video_box">
+                <div class="video_top_box">
+                    <a href="javascript:;" class="btn-play"></a>
+                    <video src="images/video2.mp4" id="video" loop class="video_top" controls></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content4 wow bounceInLeft">
+        <div class="cont">
+            <div class="wow bounceInLeft title">人物介绍</div>
+            <ul>
+                <li class="on">千寻</li>
+                <li>白龙</li>
+                <li>无脸男</li>
+                <li>汤婆婆</li>
+            </ul>
+            <div class="wow swi-box" style="display: block;">
+                <img src="images/pic1.jpg" alt="">
+                <p><span>千寻:</span>
+                <br> 千寻是一个瘦小的十岁小女孩。在搬迁的路上，误入鬼怪神灵休息的世界，他在好心人的指点下在汤婆婆那里工作，最后帮助白龙想起了自己的名字，解除身上的咒语。
+                </p>
+            </div>
+            <div class="wow swi-box">
+                <img src="images/pic2.png" alt="">
+                <p><span>白龙:</span>
+                <br> 人类世界的琥珀川河神，真身是白龙。因为琥珀川河流被掩埋而无家可归，来到汤屋在汤婆婆门下学魔法，成为汤婆婆的弟子，并忘记自己的名字，被称为“小白”。
+                </p>
+            </div>
+            <div class="wow swi-box">
+                <img src="images/pic3.jpg" alt="">
+                <p><span>无脸男:</span>
+                <br> 无脸男是一个渴望朋友的人，无意间在千寻的帮助下进入了澡堂，他给千寻的金子被拒收了，他变得恼怒，把感觉在嘲笑他的两个人吞进了肚子里。最后他被留在了钱婆婆那工作。
+                </p>
+            </div>
+            <div class="wow swi-box">
+                <img src="images/pic4.jpg" alt="">
+                <p><span>汤婆婆:</span>
+                <br> 澡堂“汤屋”的主管，同时也是镇上的管理人。她还经常会化身为黑翅膀的大鸟出门巡视，命令凡是不工作的人都要变成猪被吃掉，而为她工作的人都会被拿掉名字。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    setTimeout("$('#loading').hide()",2000)
+</script>
+</html>
